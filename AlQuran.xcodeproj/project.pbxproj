@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D309443E266CE10B0013F9BC /* AlQuranApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D309443D266CE10B0013F9BC /* AlQuranApp.swift */; };
+		D3094440266CE10B0013F9BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D309443F266CE10B0013F9BC /* ContentView.swift */; };
+		D3094442266CE10E0013F9BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3094441266CE10E0013F9BC /* Assets.xcassets */; };
+		D3094445266CE10E0013F9BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3094444266CE10E0013F9BC /* Preview Assets.xcassets */; };
+		D3094450266CE10F0013F9BC /* AlQuranTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D309444F266CE10F0013F9BC /* AlQuranTests.swift */; };
+		D309445B266CE10F0013F9BC /* AlQuranUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D309445A266CE10F0013F9BC /* AlQuranUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D309444C266CE10F0013F9BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3094432266CE10B0013F9BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3094439266CE10B0013F9BC;
+			remoteInfo = AlQuran;
+		};
+		D3094457266CE10F0013F9BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3094432266CE10B0013F9BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3094439266CE10B0013F9BC;
+			remoteInfo = AlQuran;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D309443A266CE10B0013F9BC /* AlQuran.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlQuran.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D309443D266CE10B0013F9BC /* AlQuranApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlQuranApp.swift; sourceTree = "<group>"; };
+		D309443F266CE10B0013F9BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D3094441266CE10E0013F9BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3094444266CE10E0013F9BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3094446266CE10E0013F9BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D309444B266CE10F0013F9BC /* AlQuranTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlQuranTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D309444F266CE10F0013F9BC /* AlQuranTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlQuranTests.swift; sourceTree = "<group>"; };
+		D3094451266CE10F0013F9BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3094456266CE10F0013F9BC /* AlQuranUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlQuranUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D309445A266CE10F0013F9BC /* AlQuranUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlQuranUITests.swift; sourceTree = "<group>"; };
+		D309445C266CE10F0013F9BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3094437266CE10B0013F9BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3094448266CE10F0013F9BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3094453266CE10F0013F9BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3094431266CE10B0013F9BC = {
+			isa = PBXGroup;
+			children = (
+				D309443C266CE10B0013F9BC /* AlQuran */,
+				D309444E266CE10F0013F9BC /* AlQuranTests */,
+				D3094459266CE10F0013F9BC /* AlQuranUITests */,
+				D309443B266CE10B0013F9BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D309443B266CE10B0013F9BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D309443A266CE10B0013F9BC /* AlQuran.app */,
+				D309444B266CE10F0013F9BC /* AlQuranTests.xctest */,
+				D3094456266CE10F0013F9BC /* AlQuranUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D309443C266CE10B0013F9BC /* AlQuran */ = {
+			isa = PBXGroup;
+			children = (
+				D309443D266CE10B0013F9BC /* AlQuranApp.swift */,
+				D309443F266CE10B0013F9BC /* ContentView.swift */,
+				D3094441266CE10E0013F9BC /* Assets.xcassets */,
+				D3094446266CE10E0013F9BC /* Info.plist */,
+				D3094443266CE10E0013F9BC /* Preview Content */,
+			);
+			path = AlQuran;
+			sourceTree = "<group>";
+		};
+		D3094443266CE10E0013F9BC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D3094444266CE10E0013F9BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D309444E266CE10F0013F9BC /* AlQuranTests */ = {
+			isa = PBXGroup;
+			children = (
+				D309444F266CE10F0013F9BC /* AlQuranTests.swift */,
+				D3094451266CE10F0013F9BC /* Info.plist */,
+			);
+			path = AlQuranTests;
+			sourceTree = "<group>";
+		};
+		D3094459266CE10F0013F9BC /* AlQuranUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D309445A266CE10F0013F9BC /* AlQuranUITests.swift */,
+				D309445C266CE10F0013F9BC /* Info.plist */,
+			);
+			path = AlQuranUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3094439266CE10B0013F9BC /* AlQuran */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D309445F266CE10F0013F9BC /* Build configuration list for PBXNativeTarget "AlQuran" */;
+			buildPhases = (
+				D3094436266CE10B0013F9BC /* Sources */,
+				D3094437266CE10B0013F9BC /* Frameworks */,
+				D3094438266CE10B0013F9BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlQuran;
+			productName = AlQuran;
+			productReference = D309443A266CE10B0013F9BC /* AlQuran.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D309444A266CE10F0013F9BC /* AlQuranTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3094462266CE10F0013F9BC /* Build configuration list for PBXNativeTarget "AlQuranTests" */;
+			buildPhases = (
+				D3094447266CE10F0013F9BC /* Sources */,
+				D3094448266CE10F0013F9BC /* Frameworks */,
+				D3094449266CE10F0013F9BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D309444D266CE10F0013F9BC /* PBXTargetDependency */,
+			);
+			name = AlQuranTests;
+			productName = AlQuranTests;
+			productReference = D309444B266CE10F0013F9BC /* AlQuranTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3094455266CE10F0013F9BC /* AlQuranUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3094465266CE10F0013F9BC /* Build configuration list for PBXNativeTarget "AlQuranUITests" */;
+			buildPhases = (
+				D3094452266CE10F0013F9BC /* Sources */,
+				D3094453266CE10F0013F9BC /* Frameworks */,
+				D3094454266CE10F0013F9BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3094458266CE10F0013F9BC /* PBXTargetDependency */,
+			);
+			name = AlQuranUITests;
+			productName = AlQuranUITests;
+			productReference = D3094456266CE10F0013F9BC /* AlQuranUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3094432266CE10B0013F9BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D3094439266CE10B0013F9BC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					D309444A266CE10F0013F9BC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D3094439266CE10B0013F9BC;
+					};
+					D3094455266CE10F0013F9BC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D3094439266CE10B0013F9BC;
+					};
+				};
+			};
+			buildConfigurationList = D3094435266CE10B0013F9BC /* Build configuration list for PBXProject "AlQuran" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3094431266CE10B0013F9BC;
+			productRefGroup = D309443B266CE10B0013F9BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3094439266CE10B0013F9BC /* AlQuran */,
+				D309444A266CE10F0013F9BC /* AlQuranTests */,
+				D3094455266CE10F0013F9BC /* AlQuranUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3094438266CE10B0013F9BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3094445266CE10E0013F9BC /* Preview Assets.xcassets in Resources */,
+				D3094442266CE10E0013F9BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3094449266CE10F0013F9BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3094454266CE10F0013F9BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3094436266CE10B0013F9BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3094440266CE10B0013F9BC /* ContentView.swift in Sources */,
+				D309443E266CE10B0013F9BC /* AlQuranApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3094447266CE10F0013F9BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3094450266CE10F0013F9BC /* AlQuranTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3094452266CE10F0013F9BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D309445B266CE10F0013F9BC /* AlQuranUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D309444D266CE10F0013F9BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3094439266CE10B0013F9BC /* AlQuran */;
+			targetProxy = D309444C266CE10F0013F9BC /* PBXContainerItemProxy */;
+		};
+		D3094458266CE10F0013F9BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3094439266CE10B0013F9BC /* AlQuran */;
+			targetProxy = D3094457266CE10F0013F9BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D309445D266CE10F0013F9BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D309445E266CE10F0013F9BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3094460266CE10F0013F9BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AlQuran/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AlQuran/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = n.AlQuran;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3094461266CE10F0013F9BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AlQuran/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AlQuran/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = n.AlQuran;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3094463266CE10F0013F9BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlQuranTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = n.AlQuranTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlQuran.app/AlQuran";
+			};
+			name = Debug;
+		};
+		D3094464266CE10F0013F9BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlQuranTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = n.AlQuranTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlQuran.app/AlQuran";
+			};
+			name = Release;
+		};
+		D3094466266CE10F0013F9BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlQuranUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = n.AlQuranUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlQuran;
+			};
+			name = Debug;
+		};
+		D3094467266CE10F0013F9BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlQuranUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = n.AlQuranUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlQuran;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3094435266CE10B0013F9BC /* Build configuration list for PBXProject "AlQuran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D309445D266CE10F0013F9BC /* Debug */,
+				D309445E266CE10F0013F9BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D309445F266CE10F0013F9BC /* Build configuration list for PBXNativeTarget "AlQuran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3094460266CE10F0013F9BC /* Debug */,
+				D3094461266CE10F0013F9BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3094462266CE10F0013F9BC /* Build configuration list for PBXNativeTarget "AlQuranTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3094463266CE10F0013F9BC /* Debug */,
+				D3094464266CE10F0013F9BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3094465266CE10F0013F9BC /* Build configuration list for PBXNativeTarget "AlQuranUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3094466266CE10F0013F9BC /* Debug */,
+				D3094467266CE10F0013F9BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3094432266CE10B0013F9BC /* Project object */;
+}
